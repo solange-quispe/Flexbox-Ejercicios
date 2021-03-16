@@ -1,0 +1,63 @@
+#padre {
+	width: 100%;
+	height: 150px;
+	background-color: gray;
+	display: flex;
+	flex-direction: column;
+
+}
+#rebelde {
+	width: 20%;
+	height: 35px;
+	/*justify-content: center;*/
+	/*align-items: center;*/
+	/*text-align: justify;*/
+	text-align: center; /*ESTO ME CENTRA EL TEXTO*/
+	background-color: yellow;
+	margin: auto;
+	padding-bottom: 30px;
+	
+}
+h1 {
+	color: black;
+}
+a {
+	color: white;
+	font-size: 1em;
+}
+div {
+	width: 20%;
+	height: 30px;
+	background-color: black;
+	/*justify-content: space-between;*/
+	text-align: center;
+	margin-top: 5px;
+
+}
+.caja1 {
+	width: 35%;
+	height: 500px;
+	float: left;
+	background-color: tomato;
+	margin-top: 15px;
+	margin-left: 190px;
+	justify-content: center;
+}
+.caja2 {
+	width: 35%;
+	height: 500px;
+	float: right;
+	background-color: lightblue;
+	margin-top: 15px;
+	margin-right: 190px;
+	justify-content: center;
+}
+/*h2 {
+margin-right: 90px;
+	
+}*/
+p::first-letter { /*ES UN PSEUDOELEMENTO POR ESO LLEVA DOBLE PUNTOS*/
+color: yellow;	/*ESTA ETIQUETA ME HACE LA LETRA CAPITAL*/
+font-size: 2em;
+font-weight: bold; /*CON ESTA ETIQUETA CAMBIO A NEGRITA*/
+}
